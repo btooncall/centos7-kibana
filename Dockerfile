@@ -1,4 +1,5 @@
 FROM btooncall/centos7
+
 RUN mkdir -p /opt/ 2>/dev/null; 
 WORKDIR /opt
 
